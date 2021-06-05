@@ -1,0 +1,13 @@
+export const REGISTER_USER = "REGISTER_USER";
+export const LOGIN_USER = "LOGIN_USER";
+export const LOAD_USER = "LOAD_USER";
+export const FAIL_USER = "FAIL_USER";
+export const CURRENT_USER = "CURRENT_USER";
+export const LOGOUT_USER = "LOGOUT_USER";
+export const GET_ONE_USER = "GET_ONE_USER";
+export const GET_USERS = "GET_USERS";
+export const FOLLOW_USER = "FOLLOW_USER";
+export const UNFOLLOW_USER = "UNFOLLOW_USER";
+export const SEARCH_USERS = "SEARCH_USERS";
+export const UPDATE_USER = "UPDATE_USER";
+export const DELETE_USER = "DELETE_USER";

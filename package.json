@@ -1,0 +1,32 @@
+{
+    "name": "mern_project",
+    "version": "1.0.0",
+    "description": "social platform for researchers",
+    "main": "server.js",
+    "scripts": {
+        "back": "nodemon server",
+        "front": "cd client && npm start",
+        "dev": "concurrently \"npm run front\" \"npm run back\""
+    },
+    "author": "Med Ali AMOR",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "cros": "^1.0.1",
+        "express": "^4.17.1",
+        "express-formidable": "^1.2.0",
+        "express-validator": "^6.11.1",
+        "gravatar": "^1.8.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.12.8",
+        "multer": "^1.4.2",
+        "path": "^0.12.7"
+    },
+    "devDependencies": {
+        "concurrently": "^6.1.0",
+        "dotenv": "^9.0.2",
+        "nodemon": "^2.0.7"
+    }
+}

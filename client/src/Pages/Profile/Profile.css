@@ -1,0 +1,62 @@
+.profile {
+    display: flex;
+    font-family: "Segoe UI", "helvetica", sans-serif;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    z-index: 5;
+}
+.profile-right {
+    flex: 9;
+}
+.profile-right-top {
+    display: flex;
+    position: relative;
+    height: 300px;
+    width: 100%;
+
+    background: #eef0f4;
+    border-radius: 20px;
+    box-shadow: 9.91px 9.91px 15px #d9dade, -9.91px -9.91px 15px #ffffff;
+}
+.profile-pic-container {
+    display: flex;
+    align-items: center;
+}
+.profile-pic {
+    margin-left: 1rem;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.profile-about {
+    padding-left: 1rem;
+}
+.username {
+    font-size: 2rem;
+    font-weight: 500;
+}
+.user-degree {
+    color: rgb(41, 66, 66);
+    font-size: 15px;
+}
+.about {
+    padding-top: 1.5rem;
+}
+.follow-btn {
+    position: absolute;
+    top: 5.5rem;
+    right: 5rem;
+}
+.profileBtn {
+    padding: 8px 16px;
+    background-color: rgb(9, 175, 216);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+    text-align: center;
+}
+.profile-right-bottom {
+    display: flex;
+}

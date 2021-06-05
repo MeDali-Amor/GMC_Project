@@ -1,0 +1,19 @@
+.user-list {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: 5rem;
+    padding: 1rem;
+    background: #f5f5f5;
+    border-radius: 20px;
+    box-shadow: 9.91px 9.91px 14px #b3b4b7, -9.91px -9.91px 14px #ffffff;
+}
+.user-name,
+.user-coord {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.user-coord {
+    padding-left: 3.5rem;
+    margin-right: 3.5rem;
+}

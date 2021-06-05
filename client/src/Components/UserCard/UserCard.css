@@ -1,0 +1,39 @@
+.card-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.user-avatar {
+    height: 50px;
+    width: 50px;
+    margin-right: 0.75rem;
+    border-radius: 50%;
+}
+.user-info {
+    width: 20%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.dlt-btn {
+    position: absolute;
+    right: 1.5rem;
+    top: 1rem;
+    padding: 8px 16px;
+    background-color: rgba(224, 3, 58, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #edf0f1;
+    text-align: center;
+}
+.user-name-email {
+    width: 30%;
+    margin-left: 20px;
+}
+
+.dlt-btn:hover {
+    background-color: rgba(224, 3, 58, 0.8);
+}

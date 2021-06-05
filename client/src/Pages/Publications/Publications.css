@@ -1,0 +1,8 @@
+.publications {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    background: #f7f5f5;
+}

@@ -1,0 +1,17 @@
+.usermin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    margin: 0.5rem 0.5rem;
+}
+.usermin-name {
+    font-size: 12px;
+    font-weight: 500;
+}
+.usermin-pic {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}

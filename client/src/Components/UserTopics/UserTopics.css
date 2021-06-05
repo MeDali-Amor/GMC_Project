@@ -1,0 +1,10 @@
+.feed {
+    flex: 5;
+}
+.feed-wrapper {
+    padding: 20px;
+}
+.feed-wrapper h5 {
+    padding: 1rem;
+    text-align: center;
+}
